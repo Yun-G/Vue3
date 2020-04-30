@@ -1,10 +1,9 @@
 //在这里配置路由页面
-import Home from '../views/main/Index'
 
 const routes = [{
 	path: '/',
 	name: 'home',
-	component: Home,
+	component:  () => import('../views/main/Index'),
 }, {
 	path: "/login",
 	name: "logn",

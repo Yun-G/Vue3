@@ -5,6 +5,7 @@ import store from './store'
 import Element from 'element-ui'
 import 'element-ui/lib/theme-chalk/index.css'
 import http from '@/requset/api'
+import '@/assets/reset.less'//重置默认样式
 
 Vue.use(store) //全局属性和方法
 Vue.use(Element)
